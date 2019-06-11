@@ -58,7 +58,7 @@ const User = ({ match }) => {
                             </li>
                             <li>
                                 {blog && <Fragment>
-                                    <strong>Website: </strong><a href={blog} target="_blank" rel="noopener noreferrer">{blog}</a>
+                                    <strong>Website: </strong>{blog}
                                     </Fragment>}
                             </li>
                         </ul>
